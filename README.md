@@ -1,3 +1,3 @@
-# monero-solo-pow-verifier
+# monero-stratum-pow-verifier
 
 To be modified.
