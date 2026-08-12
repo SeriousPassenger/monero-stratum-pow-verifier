@@ -1,0 +1,62 @@
+# Out-of-tree CMake builds
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+# Accidental in-tree CMake/Ninja output
+/CMakeCache.txt
+/CMakeFiles/
+/CTestTestfile.cmake
+/Testing/
+/_deps/
+/Makefile
+/cmake_install.cmake
+/install_manifest.txt
+/build.ninja
+/rules.ninja
+/.ninja_deps
+/.ninja_log
+/compile_commands.json
+
+# In-tree project targets
+/mspv_verify
+/mspv_benchmark
+/tests/mspv_tests
+/tests/mspv_c_api_test
+/tests/mspv_fast_test
+/tests/install-consumer-work/
+
+# Compiler and linker output
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+
+# Coverage, profiling and sanitizer output
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+asan.log*
+lsan.log*
+tsan.log*
+ubsan.log*
+
+# clangd, editor and OS files
+/.cache/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
